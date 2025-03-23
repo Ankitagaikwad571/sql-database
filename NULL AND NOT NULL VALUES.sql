@@ -29,3 +29,8 @@ WHERE order_status_id IS NOT NULL;
 SELECT *
 FROM shippers
 WHERE shipper_id IS NOT NULL;
+
+-- Sort
+SELECT * 
+FROM customers
+ORDER BY first_name
